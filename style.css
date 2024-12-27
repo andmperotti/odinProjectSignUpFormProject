@@ -20,3 +20,11 @@ body {
 #logo-intro > img {
     width: 5em;
 }
+
+#info-panel {
+    background-color: lightgrey
+}
+
+#info-panel > form {
+    background-color: white;
+}
