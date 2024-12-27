@@ -60,7 +60,11 @@ body {
 #baseball-intro {
     background-image: url('./assets/fenway.jpg');
     background-position: center;
-    
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo-intro {
@@ -76,7 +80,8 @@ body {
 }
 
 #info-panel {
-    background-color: lightgrey
+    background-color: lightgrey;
+    height: 50%;
 }
 
 #info-panel > form {
