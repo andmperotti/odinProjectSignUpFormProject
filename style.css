@@ -4,6 +4,19 @@ body {
 }
 
 #baseball-intro {
-    background-image: url('./assets/fenway.jpg')
+    background-image: url('./assets/fenway.jpg');
+    background-position: center;
     
+}
+
+#logo-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#logo-intro > img {
+    width: 5em;
 }
