@@ -101,3 +101,13 @@ form,
     padding: 1em 1em;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+form > label {
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-between;
+}
