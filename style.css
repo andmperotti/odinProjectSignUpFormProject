@@ -111,3 +111,20 @@ form > label {
     display: flex;
     justify-content: space-between;
 }
+
+#signup-or-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#signup-or-login button {
+    width: 60%;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#signup-or-login p a {
+    color: blue;
+}
