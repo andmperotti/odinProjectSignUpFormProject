@@ -103,6 +103,9 @@ form,
 #signup-or-login {
     padding: 1em 1em;
 }
+#info-panel span {
+    color: red;
+}
 
 form {
     display: flex;
@@ -131,3 +134,5 @@ form > label {
 #signup-or-login p a {
     color: blue;
 }
+
+/* styling input field states using pseudo classes */
