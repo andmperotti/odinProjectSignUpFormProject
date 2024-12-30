@@ -139,4 +139,22 @@ form > label {
     color: blue;
 }
 
+span.required {
+    display: none;
+}
+
 /* styling input field states using pseudo classes */
+/*Style border of inputs as user types, green infers valid entry, red infers invalid, not sure if I should communicate this to user*/
+input:invalid:focus {
+    outline: 1px solid red;
+}
+input:focus:valid {
+    outline: 1px solid lightgreen;
+}
+/*styling to input fields when user has entered input but it's not valid and they've left the field*/
+/*add margin-bottom to label when input is not valid after receiving input and losing focus on the field (user has moved onto next field probably), so you can display span error message */
+input:required:not(:focus):not(:placeholder-shown):invalid {
+    background-color: rgb(237, 139, 139);
+    margin-bottom: 1.5em;
+}
+/*if user sits there for 4 seconds without typing anything, animate a message into remind them what's needed... maybe above the input field, as mobile users won't see below it*/
