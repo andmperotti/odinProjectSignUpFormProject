@@ -24,8 +24,8 @@
             <label for="'last-name">Last Name<input type="text" name="last-name" placeholder="ex: Smith"></label>
             <label for="email">Email*<span class="required"></span><input type="text" name="email" id="email" required aria-describedby="required-email" placeholder="ex: dSmith@gmail.com" pattern="/(\w*[\.\-]*)+@(\w*[\.\-]*)*/"></label>
             <label for="phone-number">Phone Number<input type="tel" id="phone-number" name="phone_number" placeholder="ex: 6501234567"></label>
-            <label for="password">Password*<span class="required"></span><input type="text" id="password" name="password" required aria-describedby="required-password" placeholder="don't use 'password'"></label>
-            <label for="confirm-password">Confirm Password*<span class="required"></span><input type="text" id="confirm-password" name="confirm-password" required aria-describedby="required-password-confirmation" placeholder="reinput value "></label>
+            <label for="password">Password*<span class="required"></span><input type="text" id="password" name="password" required aria-describedby="required-password" placeholder="don't use 'password'" minlength="6"></label>
+            <label for="confirm-password">Confirm Password*<span class="required"></span><input type="text" id="confirm-password" name="confirm-password" required aria-describedby="required-password-confirmation" placeholder="reinput value " minlength="6"></label>
 
         </form>
         <div id="signup-or-login">
