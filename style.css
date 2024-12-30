@@ -83,6 +83,9 @@ body {
     width: 5em;
 }
 
+
+
+
 #info-panel {
     background-color: lightgrey;
     height: 70%;
@@ -91,3 +94,10 @@ body {
 #info-panel > form {
     background-color: white;
 }
+
+#info-panel h1,
+form,
+#signup-or-login {
+    padding: 1em 1em;
+}
+
