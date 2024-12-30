@@ -81,9 +81,12 @@ body {
 
 #logo-intro > img {
     width: 5em;
+    margin-right: 1em;
 }
 
-
+#baseball-intro span, span a {
+    color: lightgray;
+}
 
 
 #info-panel {
