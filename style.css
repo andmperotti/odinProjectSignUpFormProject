@@ -130,6 +130,10 @@ form > label {
     background-color: red;
     border-radius: 5px;
 }
+#signup-or-login button:active {
+    background-color: white;
+    color: red;
+}
 
 #signup-or-login p a {
     color: blue;
