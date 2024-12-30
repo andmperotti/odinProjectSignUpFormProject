@@ -58,8 +58,9 @@ body {
 }
 
 #baseball-intro {
-    background-image: url('./assets/fenway.jpg');
+    background: url('./assets/fenway.jpg') no-repeat; 
     background-position: center;
+    background-size: cover;
     height: 30%;
     display: flex;
     flex-direction: column;
